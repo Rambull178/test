@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+body{
+  background-image: linear-gradient(45deg,#5E72EB,#FF9190);
+}
+.header{
+  width: 100%;
+  height: auto;
+}
+.title{
+  font-size: 26pt;
+  letter-spacing: 2px;
+  color: white;
+  text-shadow: 6px 6px 6px rgba(0,0,0,0.155);
+  text-align: center;
+  font-family: Monospace;
+  margin-top: 40%;
+  animation-name: shadow;
+  animation-duration: 4s;
+  animation-delay: 1s;
+  animation-fill-mode: both;
+  opacity: 0;
+}
+@keyframes shadow{
+  from{opacity: 0;}
+  to{opacity: 100;}
+}
+@keyframes heightt{
+  from{height: 30px;}
+  to{height: 34px;}
+}
+.content{
+  width: 100%;
+  height: auto;
+  animation-duration: 4s;
+  animation-delay: 2s;
+  animation-fill-mode: both;
+  animation-name: shadow;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3%;
+}
+.input-box{
+  width: 370;
+  height: 370;
+  border-radius: 10px;
+  background:rgba(255,255,255,0.431);
+  
+}
+.input{
+  width: 300px;
+  height: 30px;
+  background: white;
+  border-radius: 5px;
+  font-family: Monospace;
+  border: none;
+}
+.input:hover{
+  animation-name: heightt;
+  animation-fill-mode: both;
+  animation-delay: 0s;
+  animation-duration: 1s;
+}
+
+.content .box{
+  width: 350;
+  height: 450;
+  background:rgba(152,152,152,0.806);
+  border-radius: 10px;
+}
+.mini-title{
+  font-size: 10pt;
+  letter-spacing: 2px;
+  color: white;
+  text-shadow: 6px 6px 6px rgba(0,0,0,0.155);
+  text-align: center;
+  font-family: Monospace;
+  margin-top: 2%;
+  animation-name: shadow;
+  animation-duration: 4s;
+  animation-delay: 2s;
+  animation-fill-mode: both;
+  opacity: 0;
+}
+.button-login{
+  width: 200;
+  height: 45;
+  background:#1f1f1f;
+  color: white;
+  font-family: Monospace;
+  margin-top: 5%;
+  border: none;
+  border-radius: 5px;
+}
